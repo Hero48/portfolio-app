@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 logo = Image.open("assets/logo.png")
-st.set_page_config(page_title="Kim Marcial Vallesteros", page_icon=logo, layout="wide")
+st.set_page_config(page_title="Spykvng El-Cris Hero", page_icon=logo, layout="wide")
 
 # Use local CSS
 def local_css(file_name):
@@ -19,7 +19,7 @@ st.markdown(
 st.markdown(
     """
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000000;">
-        <a class="navbar-brand" href="#">Kim Marcial A. Vallesteros</a>
+        <a class="navbar-brand" href="#">Spykvng El-Cris Hero</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,14 +48,14 @@ st.markdown(
 
 
 # ---- HEADER SECTION ----
-profile_pic = Image.open("assets/profile_pic2.png")
-about_pic = Image.open("assets/about_pic.png")
+profile_pic = Image.open("assets/profile.png")
+about_pic = Image.open("assets/about_pic.jpg")
 
 buttons = {
     "Resume": "http://tinyurl.com/3hz4pfym",               ### To be updated whenever I have a new version
-    "LinkedIn": "https://www.linkedin.com/in/kimmarcialvallesteros/",
-    "GitHub": "https://github.com/Kimchi21",
-    "Gmail": "mailto:kimmarcialv@gmail.com"
+    "LinkedIn": "https://www.linkedin.com/in/heroz-tech-067885289/",
+    "GitHub": "https://github.com/hero48",
+    "Gmail": "mailto:lankpehcrispin48@gmail.com"
 }
 
 with st.container():
@@ -85,8 +85,8 @@ with st.container():
 
     with right_column:
         st.markdown("<h4 style='text-align: center;'>Hello, I'm</h4>", unsafe_allow_html=True)
-        st.markdown("<h1 style='text-align: center;'>Kim Marcial A. Vallesteros</h1>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center;'>Data Analyst</h4>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center;'>Spykvng El-Cris Hero</h1>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center;'>Backend Developer</h4>", unsafe_allow_html=True)
         st.markdown("<h5 style='text-align: center;'>&quot;Asking the right questions paves the way for discovery. And asking the wrong ones? Well, it still leads to discovery, albeit on a different path.&quot;</h5>", unsafe_allow_html=True)
         st.markdown(
             f"""
@@ -157,8 +157,8 @@ with st.container():
                 f"<img src='https://raw.githubusercontent.com/Kimchi21/portfolio-app/main/assets/experience.png' alt='exp' style='width: 50px; height: 50px;'>"
                 "<br>"
                 "<p style='margin: 3px 0;'><strong>Experience</strong></p>"
-                "<p style='margin: 3px 0;'>1+ years</p>"
-                "<p style='margin: 3px 0;'>Data Analytics</p>"
+                "<p style='margin: 3px 0;'>2+ years</p>"
+                "<p style='margin: 3px 0;'>Web Developer</p>"
                 "</div>"
                 "</div>",
                 unsafe_allow_html=True
@@ -172,7 +172,7 @@ with st.container():
                 "<br>"
                 "<p style='margin: 3px 0;'><strong>Education</strong></p>"
                 "<p style='margin: 3px 0;'>Bachelors Degree</p>"
-                "<p style='margin: 3px 0;'>Computer Engineering</p>"
+                "<p style='margin: 3px 0;'>ICT and Maths</p>"
                 "</div>"
                 "</div>",
                 unsafe_allow_html=True
@@ -737,15 +737,15 @@ with st.container():
         f"<div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: center; justify-items: center; text-align: center;'>"
         f"<div>"
         f"<a href='{buttons['Gmail']}' target='_blank'><img src='https://cdn-icons-png.flaticon.com/128/732/732200.png' alt='gmail' style='width: 35px; height: 35px;'></a>"
-        f"<p style='margin: 5px 0;'><strong>kimmarcialv@gmail.com</strong></p>"
+        f"<p style='margin: 5px 0;'><strong>lankpehcrispin48@gmail.com</strong></p>"
         "</div>"
         "<div>"
         f"<img src='https://cdn-icons-png.flaticon.com/128/8103/8103544.png' alt='Phone' style='width: 35px; height: 35px;'>"
-        f"<p style='margin: 5px 0;'><strong>+63 927 602 1289</strong></p>"
+        f"<p style='margin: 5px 0;'><strong>+233 54 653 4139</strong></p>"
         "</div>"
         "<div>"
         f"<a href='{buttons['LinkedIn']}' target='_blank'><img src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' alt='LinkedIn' style='width: 35px; height: 35px;'></a>"
-        f"<p style='margin: 5px 0;'><strong>Kim Marcial Vallesteros</strong></p>"
+        f"<p style='margin: 5px 0;'><strong>Spykvng El-Cris Hero</strong></p>"
         "</div>"
         "</div>"
         "</div>"
@@ -789,7 +789,7 @@ st.markdown(
     "<div>"
     "<div style='display: flex; flex-direction: column; align-items: center;'>"
     "<img src='https://raw.githubusercontent.com/Kimchi21/portfolio-app/main/assets/logo.png' alt='Phone' style='width: 50px; height: 50px;'>"
-    "<p style='margin: 5px 0;'>© 2024 Kim Marcial A. Vallesteros</p>"
+    "<p style='margin: 5px 0;'>© 2024 Spykvng El-Cris Hero</p>"
     "</div>"
     "</div>",
     unsafe_allow_html=True
